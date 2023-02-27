@@ -1,0 +1,11 @@
+framework module DependencyManagerTest {
+  umbrella header "DependencyManagerTest.h"
+
+  export *
+  module * { export * }
+}
+
+module DependencyManagerTest.Swift {
+    header "DependencyManagerTest-Swift.h"
+    requires objc
+}
